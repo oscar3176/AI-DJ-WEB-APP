@@ -1,0 +1,55 @@
+body {
+    background-size: cover;
+}
+
+.note {
+    font-size: 15px;
+    color: black;
+}
+
+#column1, #sound, img {
+    float: left;
+}
+#rightIMG {
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+}
+#leftIMG {
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+}
+#column2, #vol, img {
+    float: right;
+}
+
+#sound {
+    margin-left: 30px;
+}
+
+canvas {
+    border-color: red;
+    border-width: 10px;
+    border-style: double;
+}
+
+#sound {
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+#volume {
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+#play {
+    font-size: 50px;
+    height: 100px;
+    width: 200px;
+}
